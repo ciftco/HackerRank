@@ -2,7 +2,10 @@ package com.ciftci.hackerrank.hashmaps;
 
 import com.oracle.tools.packager.linux.LinuxDebBundler;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class E3_SherlockAndAnagrams {
 
@@ -38,9 +41,6 @@ public class E3_SherlockAndAnagrams {
         Map<Character, Integer> firstCharacterCountMap = new HashMap<>();
         Map<Character, Integer> secondCharacterCountMap = new HashMap<>();
 
-        Queue<String> queue = new ArrayDeque<>();
-        queue.add("a");
-        queue.
 
         if( s.length() != s1.length()) {
             return false;
