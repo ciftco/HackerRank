@@ -1,4 +1,4 @@
-package com.ciftci.hackerrank.hashmaps;
+package com.ciftci.hackerrank.preparationkit.hashmaps;
 
 import javax.swing.text.Style;
 import java.util.*;

@@ -1,4 +1,4 @@
-package com.ciftci.hackerrank.arrays;
+package com.ciftci.hackerrank.preparationkit.arrays;
 
 import java.util.*;
 

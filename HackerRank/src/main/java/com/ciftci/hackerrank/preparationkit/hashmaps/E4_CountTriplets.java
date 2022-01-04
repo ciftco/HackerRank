@@ -1,4 +1,4 @@
-package com.ciftci.hackerrank.hashmaps;
+package com.ciftci.hackerrank.preparationkit.hashmaps;
 
 import java.util.*;
 import java.util.stream.Collectors;

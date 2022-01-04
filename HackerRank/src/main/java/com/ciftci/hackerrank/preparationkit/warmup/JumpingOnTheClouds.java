@@ -1,4 +1,4 @@
-package com.ciftci.hackerrank.warmup;
+package com.ciftci.hackerrank.preparationkit.warmup;
 
 import java.rmi.UnexpectedException;
 import java.util.ArrayList;
