@@ -1,33 +1,38 @@
 package com.ciftci.leetcode.datastructures1;
 
-public class E17_203_RemoveLinkedListElements {
+public class E17_206_ReverseLinkedList {
 
     public static void main(String[] args) {
 
     }
 
-    public static ListNode removeElements(ListNode head, int val) {
-        while(head != null && head.val == val){
-            head = head.next;
-        }
+    public ListNode removeElements(ListNode head, int val) {
 
-        if(head == null){
+        if(head == null)
+            return head;
+
+        if(head.next == null){
             return head;
         }
 
-        ListNode pointer  = head.next;
-        ListNode previous  = head;
 
-        while (pointer != null){
-            if(pointer.val == val) {
-                previous.next = pointer.next;
-                pointer = pointer.next;
-                continue;
-            }
-            previous = pointer;
-            pointer = pointer.next;
+        ListNode nextNode = head.next;
+        ListNode current = head;
+
+
+        ListNode newHead = null;
+        ListNode lastNode = new ListNode(current.val);
+        while (nextNode != null){
+            ListNode newNode = new ListNode( nextNode.val);
+            newNode.next = lastNode;
+            newHead = newNode;
+            lastNode = newNode;
+            nextNode = nextNode.next;
         }
-        return  head;
+
+        return newHead;
+
+
     }
 
     public class ListNode {

@@ -3,7 +3,7 @@ package com.ciftci.leetcode.datastructures1;
 import java.util.HashMap;
 import java.util.Map;
 
-public class E14_141LinkedListCycle {
+public class E14_141_LinkedListCycle {
 
     public static void main(String[] args) {
 
@@ -27,14 +27,15 @@ public class E14_141LinkedListCycle {
         return false;
     }
 
+    public class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
 }
 
-class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) {
-          val = x;
-          next = null;
-      }
-  }
+
 

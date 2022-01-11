@@ -1,6 +1,6 @@
 package com.ciftci.leetcode.datastructures1;
 
-public class E18_83_RemoveDubticates {
+public class E18_83_RemoveDuplicates {
 
     public static void main(String[] args) {
 
@@ -8,31 +8,28 @@ public class E18_83_RemoveDubticates {
 
     public ListNode removeElements(ListNode head, int val) {
 
-        if(head == null)
+        if(head == null){
             return head;
+        }
 
         if(head.next == null){
             return head;
         }
 
-
-        ListNode nextNode = head.next;
-        ListNode current = head;
-
-
-        ListNode newHead = null;
-        ListNode lastNode = new ListNode(current.val);
-        while (nextNode != null){
-            ListNode newNode = new ListNode( nextNode.val);
-            newNode.next = lastNode;
-            newHead = newNode;
-            lastNode = newNode;
-            nextNode = nextNode.next;
+        while(head.next != null && head.val == head.next.val){
+            head.next = head.next.next;
         }
 
-        return newHead;
+        ListNode pointer = head;
+        while (pointer != null && pointer.next != null){
+            if(pointer.val == pointer.next.val){
+                pointer.next = pointer.next.next;
+                continue;
+            }
+            pointer = pointer.next;
+        }
 
-
+        return head;
     }
 
     public class ListNode {
