@@ -1,10 +1,11 @@
 package com.ciftci.leetcode.algorithm1;
 
 import java.util.HashMap;
-import java.util.Locale;
+import java.util.LinkedList;
 import java.util.Map;
+import java.util.Queue;
 
-public class E13_567_PermutationInString {
+public class Bak_E13_567_PermutationInString {
 
     public static void main(String[] args) {
 
@@ -13,6 +14,9 @@ public class E13_567_PermutationInString {
 
         System.out.println(resutt);
 
+
+        Queue<int[]> queue = new LinkedList<>();
+        queue.
     }
 
 
@@ -29,7 +33,6 @@ public class E13_567_PermutationInString {
         }
 
         char[] charsArr = s2.toCharArray();
-
 
         for (int i = 0; i < charsArr.length ; i++){
 
