@@ -1,17 +1,11 @@
 package com.ciftci.hackerrank.preparationkit.arrays;
 
-import com.oracle.tools.packager.linux.LinuxDebBundler;
-
-import java.util.Arrays;
-import java.util.List;
-
 public class E3_MinimumSwap {
 
     public static void main(String[] args) {
 
         int[] array = new int[]{7, 1, 3, 2, 4, 5, 6};
         int i = minimumSwaps(array);
-
     }
 
     static int minimumSwaps(int[] a) {

@@ -20,8 +20,6 @@ public class E5_FrequencyQueries {
 
         List<Integer> result = freqQuery(list);
         int i = 0;
-
-
     }
 
     static List<Integer> freqQuery(List<List<Integer>> queries) {

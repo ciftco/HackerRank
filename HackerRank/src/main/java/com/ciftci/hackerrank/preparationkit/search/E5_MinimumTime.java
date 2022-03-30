@@ -5,8 +5,6 @@ import java.util.Arrays;
 public class E5_MinimumTime {
 
     public static void main(String[] args) {
-
-
         long l = 5L;
         long l1 = 2L;
         long l3 = l / l1;

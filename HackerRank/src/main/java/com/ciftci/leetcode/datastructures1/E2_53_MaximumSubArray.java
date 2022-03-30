@@ -23,5 +23,4 @@ public class E2_53_MaximumSubArray {
         return maxSum;
     }
 
-
 }

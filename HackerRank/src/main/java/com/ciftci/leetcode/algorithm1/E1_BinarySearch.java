@@ -2,7 +2,6 @@ package com.ciftci.leetcode.algorithm1;
 
 public class E1_BinarySearch {
 
-
     //https://leetcode.com/problems/binary-search/
     public static void main(String[] args) {
 

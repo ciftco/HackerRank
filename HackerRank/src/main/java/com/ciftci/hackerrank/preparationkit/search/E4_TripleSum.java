@@ -16,8 +16,6 @@ public class E4_TripleSum {
     }
 
     static long triplets(int[] a, int[] b, int[] c) {
-
-
         Set<String> set = new HashSet<>();
         for (int i = 0; i< a.length;i++) {
             int valA = a[i];

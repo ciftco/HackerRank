@@ -3,7 +3,6 @@ package com.ciftci.hackerrank.preparationkit.search;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 public class E1_IceCreamParior {
 
@@ -22,7 +21,6 @@ public class E1_IceCreamParior {
 
                 System.out.println( (indexValues.get(value) + 1) + " " + (i+1) )  ;
             }
-
 
             Integer key = money - value;
             indexValues.put(key, i);

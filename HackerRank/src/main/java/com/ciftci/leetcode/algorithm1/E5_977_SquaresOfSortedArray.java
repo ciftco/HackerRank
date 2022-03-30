@@ -1,7 +1,5 @@
 package com.ciftci.leetcode.algorithm1;
 
-import java.util.Arrays;
-
 public class E5_977_SquaresOfSortedArray {
 
     public static void main(String[] args) {
@@ -12,6 +10,7 @@ public class E5_977_SquaresOfSortedArray {
 
         int[] result =  new int[nums.length];
         int head = 0;
+
         int tail = nums.length -1;
 
         for (int i = 0; i< nums.length;i++){
@@ -27,7 +26,6 @@ public class E5_977_SquaresOfSortedArray {
             }
         }
         return result;
-
     }
 
 }

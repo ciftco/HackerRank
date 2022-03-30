@@ -1,7 +1,5 @@
 package com.ciftci.leetcode.datastructures1;
 
-import java.util.Stack;
-
 public class E6_121_BestTimeToBuyStocks {
 
     public static void main(String[] args) {
@@ -23,5 +21,4 @@ public class E6_121_BestTimeToBuyStocks {
 
         return result;
     }
-
 }

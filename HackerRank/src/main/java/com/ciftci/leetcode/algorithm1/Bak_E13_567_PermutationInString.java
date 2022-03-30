@@ -1,9 +1,7 @@
 package com.ciftci.leetcode.algorithm1;
 
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.Map;
-import java.util.Queue;
 
 public class Bak_E13_567_PermutationInString {
 

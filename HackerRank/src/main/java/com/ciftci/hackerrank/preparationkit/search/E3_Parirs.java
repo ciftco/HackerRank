@@ -9,7 +9,6 @@ public class E3_Parirs {
 
     }
 
-
     public static int pairs(int k, List<Integer> arr) {
         // Write your code here
 

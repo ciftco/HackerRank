@@ -24,6 +24,5 @@ public class E4_88_MergeSort {
             n--;
         }
 
-
     }
 }

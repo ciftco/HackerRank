@@ -9,7 +9,6 @@ public class E3_1_TwoSum {
 
     }
 
-
     public static int[] twoSum(int[] nums, int target) {
 
         Map<Integer, Integer> indexMap = new HashMap<>();
@@ -28,6 +27,5 @@ public class E3_1_TwoSum {
             indexMap.put(needdedNum, i);
         }
         return  result;
-
     }
 }

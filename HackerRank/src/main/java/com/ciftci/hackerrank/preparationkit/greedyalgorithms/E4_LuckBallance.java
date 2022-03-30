@@ -6,7 +6,6 @@ import java.util.List;
 
 public class E4_LuckBallance {
 
-
     public static void main(String[] args) {
 
         List<Integer> integer1 = Arrays.asList(5, 1);
@@ -25,7 +24,6 @@ public class E4_LuckBallance {
         int result = luckBalance(2, input);
 
         System.out.println(result);
-
     }
 
     public static int luckBalance(int k, List<List<Integer>> contests) {

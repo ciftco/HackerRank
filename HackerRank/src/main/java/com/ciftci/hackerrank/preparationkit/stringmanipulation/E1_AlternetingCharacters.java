@@ -22,8 +22,6 @@ public class E1_AlternetingCharacters {
         }
 
         return removeCharacterCount;
-
-
     }
 
 }

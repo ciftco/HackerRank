@@ -1,7 +1,5 @@
 package com.ciftci.hackerrank.preparationkit.hashmaps;
 
-import com.oracle.tools.packager.linux.LinuxDebBundler;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -10,7 +8,6 @@ import java.util.Map;
 public class E3_SherlockAndAnagrams {
 
     public static void main(String[] args) {
-
         int abcd = sherlockAndAnagrams("abba");
         System.out.println(abcd);
     }

@@ -6,12 +6,7 @@ public class E1_217_ContainsDubticate {
 
     public static void main(String[] args) {
 
-
-
-
-
-
-        }
+    }
 
     public boolean containsDuplicate(int[] nums) {
 

@@ -6,10 +6,7 @@ import java.util.Map;
 public class E12_3_LongestSubStringWithoutRepeatingCharacters {
 
     public static void main(String[] args) {
-
         int result = lengthOfLongestSubstring("abcabcbb");
-
-
     }
 
     public static int lengthOfLongestSubstring(String s) {

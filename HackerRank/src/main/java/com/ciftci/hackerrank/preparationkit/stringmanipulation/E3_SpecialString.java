@@ -2,8 +2,6 @@ package com.ciftci.hackerrank.preparationkit.stringmanipulation;
 
 //https://www.hackerrank.com/challenges/special-palindrome-again/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=strings&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
 
-import java.util.Stack;
-
 public class E3_SpecialString {
 
 
@@ -16,7 +14,6 @@ public class E3_SpecialString {
         //long count = substrCount( 5,"aaaa");
 
         int i = 0;
-
     }
 
     static long substrCount(int n, String s) {

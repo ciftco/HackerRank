@@ -31,7 +31,6 @@ public class E11_19_RemoveNthNodeFromTheEndOfList {
         return head;
     }
 
-
       public class ListNode {
         int val;
         ListNode next;

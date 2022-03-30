@@ -7,7 +7,6 @@ public class E10_74_Search2dMatrix {
     }
 
 
-
     public boolean searchMatrix(int[][] matrix, int target) {
 
         int rowCount = matrix.length;

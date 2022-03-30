@@ -1,12 +1,13 @@
 package com.ciftci.hackerrank.preparationkit.hashmaps;
 
-import javax.swing.text.Style;
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class E1_RansomNote {
 
     public static void main(String[] args) {
-
         List<String> magazine = Arrays.asList("two", "times", "three", "is", "not", "four");
         List<String> note = Arrays.asList("two", "times", "two", "is", "four");
         checkMagazine(magazine,note);

@@ -1,14 +1,9 @@
 package com.ciftci.hackerrank.scrapbook;
 
-import java.util.Stack;
-
 public class Scrapbook {
 
     public static void main(String[] args) {
-
-
         boolean result = extracted(2332);
-
     }
 
     private static boolean extracted(int number) {

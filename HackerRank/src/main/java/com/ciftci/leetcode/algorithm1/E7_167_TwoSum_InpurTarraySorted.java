@@ -25,9 +25,7 @@ public class E7_167_TwoSum_InpurTarraySorted {
             }
 
             indexMap.put(target - currentValue, i + 1);
-
         }
         return null;
     }
-
 }
