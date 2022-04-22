@@ -15,8 +15,9 @@ public class E3_35_SearchInsertPositions {
 
         int middle = 0;
 
-        if(nums[0] > target )
+        if(nums[0] > target ) {
             return 0;
+        }
 
         if(nums[end -1] < target )
             return end;
